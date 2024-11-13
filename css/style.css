@@ -1,0 +1,197 @@
+
+/* link of the webpage*/
+/* http://localhost:5504/ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    margin: 0;
+}
+
+/*-------------------------Step 1 - 2-----------------------------*/
+
+
+/*------------Step 1 - Nav---------------*/
+nav {
+    background-color: white;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1379;
+
+}
+/*------------Step 1 - flex destinations---------------*/
+#destinations {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+}
+/*------------Step 1 - make spaces---------------*/
+#destinations p {
+    padding-left: 30px;
+    color: white;
+}
+/*------------Extra---------------*/
+#destinations p:hover {
+    color: rgba(255, 255, 255, 0.833);
+    cursor: pointer;
+}
+/*------------Step 1 - flex actions---------------*/
+#actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#actions p,
+button {
+    padding-right: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+/*------------Step 2 - hero section---------------*/
+section {
+    height: 460px;
+    background-color: black;
+    color: white;
+    padding: 24px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/*------------Extra---------------*/
+#hero {
+    background: url(https://www.danielweb.com.br/wp-content/uploads/2024/10/Designer-no-Processo-de-Criacao-de-Sites-1024x585.jpg);
+    background-size: cover;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+/*------------Step 2 - input position---------------*/
+input {
+    height: 58px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 29px;
+    border: 0px;
+    padding: 0 24px;
+    background-color: rgba(255, 254, 254, 0.7);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+/*------------Step 1 - flex trend contents---------------*/
+#trending {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+/*-------------------------Step 3 -4-----------------------------*/
+
+
+/*------------Step 4 - make cards flex and give them spaces---------------*/
+main {
+    background-color: rgba(255, 255, 255, 0.845);
+    padding: 32px 72px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+nav button {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 0;
+    color: #1b1379;
+    font-weight: 500;
+}
+/*------------Extra---------------*/
+nav button:hover{
+    cursor: pointer;
+    background-color: #c4c3d0f0;
+    color:#1b1379;
+}
+
+.img-placeholder {
+    width: 355px;
+    height: 270px;
+    background-color: gray;
+    border-radius: 8px;
+}
+
+.card {
+    margin: 20px;
+}
+/*------------Step 4 - flex cards footer---------------*/
+.card-footer {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer * {
+    margin-top: 8px;
+}
+/*------------Step 3 - flex subnav---------------*/
+#subnav {
+    padding: 32px 72px 0;
+    background-color: rgba(255, 255, 255, 0.845);
+    display: flex;
+    justify-content: space-between;
+}
+
+#subnav button {
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #1b1379;
+    color: white;
+    cursor: pointer;
+}
+
+#subnav button:hover {
+    background-color: #484383;
+}
+
+#trending p {
+    background-color: rgba(255, 254, 254, 0.7);
+    color: black;
+    border-radius: 50px;
+    padding: 6px 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#trending p:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
